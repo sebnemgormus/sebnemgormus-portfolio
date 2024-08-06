@@ -18,24 +18,24 @@ const Home = () => {
               </h2>
             </div>
             <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 flex flex-row space-x-6 text-gray-500 md:hidden">
-              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/sebnemgormus/" target="_blank" rel="noopener noreferrer">
                 <FiLinkedin className="text-lg md:text-xl hover:text-fuchsia-400 transition-colors duration-300" />
               </a>
-              <a href="https://www.bento.me" target="_blank" rel="noopener noreferrer">
+              <a href="https://bento.me/sebnemgormus" target="_blank" rel="noopener noreferrer">
                 <SiBentoml className="text-lg md:text-xl hover:text-fuchsia-400 transition-colors duration-300" />
               </a>
-              <a href="https://www.github.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/sebnemgormus" target="_blank" rel="noopener noreferrer">
                 <FiGithub className="text-lg md:text-xl hover:text-fuchsia-400 transition-colors duration-300" />
               </a>
             </div>
             <div className="absolute bottom-0 right-24 hidden md:flex flex-col items-left space-y-4 text-gray-500 ">
-              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/sebnemgormus/" target="_blank" rel="noopener noreferrer">
                 <FiLinkedin className="text-2xl xl:text-xl hover:text-fuchsia-400" />
               </a>
-              <a href="https://www.bento.me" target="_blank" rel="noopener noreferrer">
+              <a href="https://bento.me/sebnemgormus" target="_blank" rel="noopener noreferrer">
                 <SiBentoml className="text-2xl xl:text-xl hover:text-fuchsia-400" />
               </a>
-              <a href="https://www.github.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/sebnemgormus" target="_blank" rel="noopener noreferrer">
                 <FiGithub className="text-2xl xl:text-xl hover:text-fuchsia-400" />
               </a>
             </div>
