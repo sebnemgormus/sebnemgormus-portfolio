@@ -31,13 +31,12 @@ module.exports = {
           hover: "#f9e3cd",
         },
         white: "#ffffff",
-        lightorange: "#f9e3cd",
-        darkorange:"#D6A49D",
         purple:"#EBE8FB",
         darkPurple: "#BF85C0",
         blue:"#2948A9",
         lightBlue: "#D2E5FF",
         background: "#112639",
+        lightPurple: "#EBE8FB",
       },
       
 
