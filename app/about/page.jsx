@@ -264,7 +264,8 @@ const About = () => {
                         <li
                           key={index}
                           className="bg-white border-2 h-[184px] py-6 px-6 flex flex-col justify-center items-center
-                        lg:items-start gap-1 dark:bg-[#2C303F]"
+                        lg:items-start gap-1 dark:bg-white/10 dark:border-white/10 dark:backdrop-blur-sm dark:backdrop-filter
+"
                         >
                           <span className="text-blue dark:text-white/70">{item.duration}</span>
                           <h3 className="text-sm max-w-[260px] min-h-[60px] text-center lg:text-left dark:text-white">
@@ -296,7 +297,8 @@ const About = () => {
                         <li
                           key={index}
                           className="bg-white border-2 h-[184px] py-6 px-6  flex flex-col justify-center items-center
-                        lg:items-start gap-1 dark:bg-[#2C303F]"
+                        lg:items-start gap-1 dark:bg-white/10 dark:border-white/10 dark:backdrop-blur-sm dark:backdrop-filter
+"
                         >
                           <p className="text-blue dark:text-white/70">{item.duration}</p>
 
@@ -331,7 +333,8 @@ const About = () => {
                       <li key={index}>
                         <TooltipProvider delayDuration={100}>
                           <Tooltip>
-                            <TooltipTrigger className="w-full h-[150px] bg-white border-2  flex justify-center items-center group dark:bg-[#2C303F]">
+                            <TooltipTrigger className="w-full h-[150px] bg-white border-2  flex justify-center items-center group dark:bg-white/10 dark:border-white/10 dark:backdrop-blur-sm dark:backdrop-filter
+">
                               <div className="text-6xl group-hover:blue transition-all duration-300 dark:text-white">
                                 {skill.icon}
                               </div>
@@ -359,7 +362,8 @@ const About = () => {
                       <li
                         key={index}
                         className="bg-white border-2 h-[184px] py-6 px-6  flex flex-col justify-center items-center
-                      lg:items-start gap-1 dark:bg-[#2C303F]"
+                      lg:items-start gap-1 dark:bg-white/10 dark:border-white/10 dark:backdrop-blur-sm dark:backdrop-filter
+"
                       >
                         <h3 className="text-md max-w-[360px] min-h-[60px] text-center lg:text-left dark:text-white">
                           {item.department}
@@ -377,7 +381,7 @@ const About = () => {
                             rel="noopener noreferrer"
                             className="mt-2"
                           >
-                            <div className="w-[30px] h-[30px] grid bg-fuchsia-400 dark:bg-blue hover:bg-fuchsia-200 dark:hover:bg-lightBlue justify-center items-center">
+                            <div className="w-[30px] h-[30px] grid bg-fuchsia-400 hover:bg-fuchsia-200 dark:hover:bg-fuchsia-200 justify-center items-center">
                               <BsArrowUpRight className="text-white text-lg" />
                             </div>
                           </a>

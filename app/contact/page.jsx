@@ -49,7 +49,7 @@ const Contact = () => {
             <h1 className="text-3xl sm:text-5xl font-bold mb-6 text-left  text-white md:text-black lg:text-black dark:text-white">Contact me</h1>
             <ul className="w-full grid grid-cols-1 gap-4 sm:gap-6">
               {info.map((item, index) => (
-                <li key={index} className="flex items-center gap-3 sm:gap-4 border border-gray-300 p-3 sm:p-5  relative">
+                <li key={index} className="flex items-center gap-3 sm:gap-4 border border-gray-300 dark:bg-white/10 dark:border-white/10 dark:backdrop-blur-sm dark:backdrop-filter p-3 sm:p-5  relative">
                   <a href={item.link} className="flex items-center gap-3 sm:gap-4 text-base sm:text-lg hover:underline" target="_blank" rel="noopener noreferrer">
                     <div className="w-10 h-10 sm:w-12 sm:h-12 hover:text-fuchsia-300  flex items-center justify-center">
                       <div className="text-xl sm:text-2xl  text-white md:text-gray-500 lg:text-text-gray-500  hover:text-fuchsia-300">{item.icon}</div>

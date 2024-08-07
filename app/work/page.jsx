@@ -153,7 +153,7 @@ const Work = () => {
                 <Link href={project.live} target="_blank">
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
-                      <TooltipTrigger className="w-[70px] h-[70px] grid  bg-fuchsia-300 dark:bg-blue dark:hover:bg-lightBlue  hover:bg-fuchsia-200 justify-center items-center">
+                      <TooltipTrigger className="w-[70px] h-[70px] grid  bg-fuchsia-300 dark:bg-blue/20 dark:hover:bg-blue  hover:bg-fuchsia-200 justify-center items-center">
                         <BsArrowUpRight className="text-white text-3xl" />
                       </TooltipTrigger>
                       <TooltipContent>
@@ -166,7 +166,7 @@ const Work = () => {
                   <Link href={project.github} target="_blank">
                     <TooltipProvider delayDuration={100}>
                       <Tooltip>
-                        <TooltipTrigger className="w-[70px] h-[70px] grid dark:bg-blue dark:hover:bg-lightBlue bg-fuchsia-300 hover:bg-fuchsia-200 justify-center items-center group">
+                        <TooltipTrigger className="w-[70px] h-[70px] grid dark:bg-blue/20 dark:hover:bg-blue bg-fuchsia-300 hover:bg-fuchsia-200 justify-center items-center group">
                           <FiGithub className="text-white text-3xl" />
                         </TooltipTrigger>
                         <TooltipContent>
@@ -204,7 +204,7 @@ const Work = () => {
                 );
               })}
               <WorkSliderBtns containerStyles="flex gap-2 absolute  right-0 bottom-[calc(50%_-_22px)] xl:bottom-0 z-20 w-full justify-between xl:w-max xl:justify-none" 
-              btnStyles="bg-fuchsia-300 hover:bg-fuchsia-200 text-white  dark:bg-blue dark:hover:bg-lightBlue  text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all"/>
+              btnStyles="bg-fuchsia-300 hover:bg-fuchsia-200 text-white  dark:bg-blue/20 dark:hover:bg-blue  text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all"/>
             </Swiper>
           </div>
         </div>
