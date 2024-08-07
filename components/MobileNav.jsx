@@ -26,7 +26,7 @@ const MobileNav = () => {
   return (
     <Sheet>
         <SheetTrigger className='flex justify-center items-center'>
-            <CiMenuFries className='text-[32px] text-black'/>
+            <CiMenuFries className='text-[32px] text-black dark:text-white'/>
         </SheetTrigger>
         <SheetContent className="flex flex-col">
             <div className='mt-32 mb-20 text-center text-2xl text-black'>
