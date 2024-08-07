@@ -63,7 +63,7 @@ const Contact = () => {
             </ul>
           </div>
           {/* Overlay for mobile view */}
-          <div className="absolute inset-0 bg-white z-0 sm:hidden" />
+          <div className="absolute inset-0 z-0 sm:hidden" />
         </div>
       </div>
     </motion.section>
