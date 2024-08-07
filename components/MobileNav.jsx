@@ -31,12 +31,12 @@ const MobileNav = () => {
         <SheetContent className="flex flex-col">
             <div className='mt-32 mb-20 text-center text-2xl text-black'>
                 <Link href="/">
-                    <h1 className='text-2xl font-semibold'>
-                        sebnemgormus<span className='text-blue'>.</span>
+                    <h1 className='text-2xl font-semibold dark:text-white'>
+                        sebnemgormus<span className='text-blue dark:text-fuchsia-400'>.</span>
                     </h1>
                 </Link>
             </div>
-            <nav className='flex flex-col justify-center items-center gap-8 text-black'>
+            <nav className='flex flex-col justify-center items-center gap-8 text-black dark:text-white'>
                 {links.map((link, index)=> {
                     return (
                       <Link 
@@ -44,8 +44,8 @@ const MobileNav = () => {
                         key={index} 
                         className={`${
                             link.path === pathname && 
-                            "text-blue border-b-2 border-blue"} 
-                            text-xl capitalize hover:text-blue transition-all`}
+                            "text-blue border-b-2 border-blue dark:text-fuchsia-400 dark:border-fuchsia-400"} 
+                            text-xl capitalize hover:text-blue dark:hover:text-fuchsia-400 transition-all`}
                         >
                         {link.name}
                       </Link>

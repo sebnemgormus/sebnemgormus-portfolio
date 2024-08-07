@@ -131,29 +131,29 @@ const Work = () => {
         <div className="flex flex-col xl:flex-row xl:gap-[30px]">
           <div className="w-full xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between order-2 xl:order-none">
             <div className="flex flex-col gap-[30px] h-[50%]">
-              <div className="text-8xl leading-none font-extrabold text-black text-outline">
+              <div className="text-8xl leading-none font-extrabold text-black text-outline dark:text-white">
                 {project.num}
               </div>
 
-              <h2 className="text-[42px] font-bold leading-none text-black transition-all duration-500 capitalize">
+              <h2 className="text-[42px] font-bold leading-none text-black transition-all duration-500 capitalize dark:text-white">
                 {project.title}
               </h2>
-              <p className="text-black/60">{project.description}</p>
+              <p className="text-black/60 dark:text-white/60">{project.description}</p>
               <ul className="flex gap-4">
                 {project.stack.map((item, index) => {
                   return (
-                    <li key={index} className="text-xl text-black">
+                    <li key={index} className="text-xl text-black dark:text-white">
                       {item.name} {index !== project.stack.length - 1 && ","}
                     </li>
                   );
                 })}
               </ul>
-              <div className="border border-black/20"></div>
+              <div className="border border-black/20 dark:border-white/20"></div>
               <div className="flex items-center gap-4">
                 <Link href={project.live} target="_blank">
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
-                      <TooltipTrigger className="w-[70px] h-[70px] grid  bg-fuchsia-300 hover:bg-lightPurple justify-center items-center">
+                      <TooltipTrigger className="w-[70px] h-[70px] grid  bg-fuchsia-300 dark:bg-blue dark:hover:bg-lightBlue  hover:bg-fuchsia-200 justify-center items-center">
                         <BsArrowUpRight className="text-white text-3xl" />
                       </TooltipTrigger>
                       <TooltipContent>
@@ -166,7 +166,7 @@ const Work = () => {
                   <Link href={project.github} target="_blank">
                     <TooltipProvider delayDuration={100}>
                       <Tooltip>
-                        <TooltipTrigger className="w-[70px] h-[70px] grid  bg-fuchsia-300 hover:bg-lightPurple justify-center items-center group">
+                        <TooltipTrigger className="w-[70px] h-[70px] grid dark:bg-blue dark:hover:bg-lightBlue bg-fuchsia-300 hover:bg-fuchsia-200 justify-center items-center group">
                           <FiGithub className="text-white text-3xl" />
                         </TooltipTrigger>
                         <TooltipContent>
@@ -204,7 +204,7 @@ const Work = () => {
                 );
               })}
               <WorkSliderBtns containerStyles="flex gap-2 absolute  right-0 bottom-[calc(50%_-_22px)] xl:bottom-0 z-20 w-full justify-between xl:w-max xl:justify-none" 
-              btnStyles="bg-fuchsia-300 hover:bg-lightPurple text-white   text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all"/>
+              btnStyles="bg-fuchsia-300 hover:bg-fuchsia-200 text-white  dark:bg-blue dark:hover:bg-lightBlue  text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all"/>
             </Swiper>
           </div>
         </div>

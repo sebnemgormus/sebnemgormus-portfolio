@@ -6,17 +6,26 @@
 
 @layer base {
     body {
-        @apply font-primary bg-primary text-white leading-loose;
+        @apply font-primary bg-primary text-white dark:bg-[#2C303F] dark:text-white leading-loose;
+      
     }
     .h1 {
-        @apply text-[48px] xl:text-[80px] leading-[1.1] font-semibold;
+        @apply text-[48px] xl:text-[80px] leading-[1.1] font-semibold dark:text-white;
     }
     .h2 {
-        @apply text-[36px] xl:text-[48px] leading-[1.1] font-semibold;
+        @apply text-[36px] xl:text-[48px] leading-[1.1] font-semibold dark:text-white;
     }
     .h3 {
-        @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold;
+        @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold dark:text-white;
     }
-    
+    button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        background-color: none;
+      }
+
 }
   
