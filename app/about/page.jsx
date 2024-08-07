@@ -263,7 +263,7 @@ const About = () => {
                       return (
                         <li
                           key={index}
-                          className="bg-white border-2 h-[184px] py-6 px-6 rounded-xl flex flex-col justify-center items-center
+                          className="bg-white border-2 h-[184px] py-6 px-6 flex flex-col justify-center items-center
                         lg:items-start gap-1"
                         >
                           <span className="text-blue">{item.duration}</span>
@@ -271,7 +271,7 @@ const About = () => {
                             {item.position}
                           </h3>
                           <div className="flex items-center gap-3">
-                            <span className="w-[6px] h-[6px] rounded-lg bg-blue"></span>
+                            <span className="w-[6px] h-[6px]  bg-blue"></span>
                             <p className="text-black/60 text-xs">
                               {item.company}
                             </p>
@@ -295,7 +295,7 @@ const About = () => {
                       return (
                         <li
                           key={index}
-                          className="bg-white border-2 h-[184px] py-6 px-6 rounded-xl flex flex-col justify-center items-center
+                          className="bg-white border-2 h-[184px] py-6 px-6  flex flex-col justify-center items-center
                         lg:items-start gap-1"
                         >
                           <p className="text-blue">{item.duration}</p>
@@ -305,7 +305,7 @@ const About = () => {
                           </h3>
 
                           <div className="flex items-center gap-3">
-                            <span className="w-[6px] h-[6px] rounded-lg bg-blue"></span>
+                            <span className="w-[6px] h-[6px]  bg-blue"></span>
                             <p className="text-black/60 text-xs">
                               {item.institution}
                             </p>
@@ -331,7 +331,7 @@ const About = () => {
                       <li key={index}>
                         <TooltipProvider delayDuration={100}>
                           <Tooltip>
-                            <TooltipTrigger className="w-full h-[150px] bg-white border-2 rounded-xl flex justify-center items-center group">
+                            <TooltipTrigger className="w-full h-[150px] bg-white border-2  flex justify-center items-center group">
                               <div className="text-6xl group-hover:blue transition-all duration-300">
                                 {skill.icon}
                               </div>
@@ -358,7 +358,7 @@ const About = () => {
                     {certificates.items.map((item, index) => (
                       <li
                         key={index}
-                        className="bg-white border-2 h-[184px] py-6 px-6 rounded-xl flex flex-col justify-center items-center
+                        className="bg-white border-2 h-[184px] py-6 px-6  flex flex-col justify-center items-center
                       lg:items-start gap-1"
                       >
                         <h3 className="text-md max-w-[360px] min-h-[60px] text-center lg:text-left">
@@ -366,7 +366,7 @@ const About = () => {
                         </h3>
                         <div className="flex items-center justify-between w-full">
                           <div className="flex items-center gap-3">
-                            <span className="w-[6px] h-[6px] rounded-lg bg-blue"></span>
+                            <span className="w-[6px] h-[6px]  bg-blue"></span>
                             <p className="text-black/60 text-xs">
                               {item.institution}
                             </p>
@@ -377,7 +377,7 @@ const About = () => {
                             rel="noopener noreferrer"
                             className="mt-2"
                           >
-                            <div className="w-[30px] h-[30px] grid rounded-lg bg-fuchsia-300 hover:bg-lightPurple justify-center items-center">
+                            <div className="w-[30px] h-[30px] grid  bg-fuchsia-300 hover:bg-lightPurple justify-center items-center">
                               <BsArrowUpRight className="text-white text-lg" />
                             </div>
                           </a>

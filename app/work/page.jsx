@@ -153,7 +153,7 @@ const Work = () => {
                 <Link href={project.live} target="_blank">
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
-                      <TooltipTrigger className="w-[70px] h-[70px] grid rounded-lg bg-fuchsia-300 hover:bg-lightPurple justify-center items-center">
+                      <TooltipTrigger className="w-[70px] h-[70px] grid  bg-fuchsia-300 hover:bg-lightPurple justify-center items-center">
                         <BsArrowUpRight className="text-white text-3xl" />
                       </TooltipTrigger>
                       <TooltipContent>
@@ -166,7 +166,7 @@ const Work = () => {
                   <Link href={project.github} target="_blank">
                     <TooltipProvider delayDuration={100}>
                       <Tooltip>
-                        <TooltipTrigger className="w-[70px] h-[70px] grid rounded-lg bg-fuchsia-300 hover:bg-lightPurple justify-center items-center group">
+                        <TooltipTrigger className="w-[70px] h-[70px] grid  bg-fuchsia-300 hover:bg-lightPurple justify-center items-center group">
                           <FiGithub className="text-white text-3xl" />
                         </TooltipTrigger>
                         <TooltipContent>
@@ -195,7 +195,7 @@ const Work = () => {
                         <Image
                           src={project.image}
                           fill
-                          className="object-cover rounded-lg"
+                          className="object-cover "
                           alt="Project images"
                         />
                       </div>
@@ -203,8 +203,8 @@ const Work = () => {
                   </SwiperSlide>
                 );
               })}
-              <WorkSliderBtns containerStyles="flex gap-2 absolute rounded-lg right-0 bottom-[calc(50%_-_22px)] xl:bottom-0 z-20 w-full justify-between xl:w-max xl:justify-none" 
-              btnStyles="bg-fuchsia-300 hover:bg-lightPurple text-white  rounded-lg text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all"/>
+              <WorkSliderBtns containerStyles="flex gap-2 absolute  right-0 bottom-[calc(50%_-_22px)] xl:bottom-0 z-20 w-full justify-between xl:w-max xl:justify-none" 
+              btnStyles="bg-fuchsia-300 hover:bg-lightPurple text-white   text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all"/>
             </Swiper>
           </div>
         </div>

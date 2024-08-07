@@ -33,7 +33,7 @@ const Photo = () => {
             fill
             // style={imageStyle}
             alt="Picture of the author"
-            className="object-contain rounded-lg"
+            className="object-contain "
           />
         </motion.div>
       </motion.div>
