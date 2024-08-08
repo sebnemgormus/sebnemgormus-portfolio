@@ -58,7 +58,7 @@ const experience = {
     },
     {
       company: "Bahçeşehir College Headquarter",
-      position: "Measurement and Evalutaion Assistant",
+      position: "Measurement and Evaluation Assistant",
       duration: "Sep 2021 - Sep 2022",
     },
     {
@@ -381,7 +381,7 @@ const About = () => {
                             rel="noopener noreferrer"
                             className="mt-2"
                           >
-                            <div className="w-[30px] h-[30px] grid bg-fuchsia-400 hover:bg-fuchsia-200 dark:hover:bg-fuchsia-200 justify-center items-center">
+                            <div className="w-[30px] h-[30px] grid bg-fuchsia-400 hover:bg-fuchsia-500 dark:hover:bg-fuchsia-500 justify-center items-center">
                               <BsArrowUpRight className="text-white text-lg" />
                             </div>
                           </a>

@@ -19,33 +19,6 @@ import {FiGithub} from "react-icons/fi";
 const projects = [
   {
     num: "01",
-    title: "AuthnTKT",
-    description:"Developed for AudtEye company.",
-    stack: [{ name: "html" }, { name: "css" }, { name: "javascript" }],
-    image: "/assets/work/project1.png",
-    live: "https://authntkt.io/",
-    github: "",
-  },
-  {
-    num: "02",
-    title: "RNTD",
-    description: "Worked on the frontend development of this project for the AudtEye company.",
-    stack: [{ name: "react.js" }, { name: "next.js" }, { name: "scss" }],
-    image: "/assets/work/02.png",
-    live: "https://rntd.io/",
-    github: "",
-  },
-  {
-    num: "03",
-    title: "CV Generator",
-    description: "A CV generator application designed to help users create professional resumes quickly and easily.",
-    stack: [{ name: "react.js" }, {name: "css"}],
-    image: "/assets/work/03.png",
-    live: "https://create-cv-ten.vercel.app/",
-    github: "https://github.com/sebnemgormus/create-cv",
-  },
-  {
-    num: "04",
     title: "Weather App",
     description: "A weather app that provides real-time weather updates and forecasts.",
     stack: [{ name: "html" }, {name: "css"}, {name: "javascript"}],
@@ -54,25 +27,34 @@ const projects = [
     github: "https://github.com/sebnemgormus/weather-app",
   },
   {
-    num: "05",
-    title: "laurenbooth",
-    description: "Developed for AudtEye company's customer.",
-    stack: [{ name: "wordpress" }],
-    image: "/assets/work/05.png",
-    live: "https://laurenbooth.co.uk/",
+    num: "02",
+    title: "CV Generator",
+    description: "A CV generator application designed to help users create professional resumes quickly and easily.",
+    stack: [{ name: "react.js" }, {name: "css"}],
+    image: "/assets/work/03.png",
+    live: "https://create-cv-ten.vercel.app/",
+    github: "https://github.com/sebnemgormus/create-cv",
+  },
+  {
+    num: "03",
+    title: "Text to Speech",
+    description: "A simple text-to-speech converter that lets you input your text and select a language. It then converts the text into spoken words in the chosen language, providing clear and accurate audio output.",
+    stack: [{ name: "html" }, {name: "css"}, {name: "javascript"}],
+    image: "/assets/work/08.png",
+    live: "https://text-to-speech-weld-phi.vercel.app/",
+    github: "https://github.com/sebnemgormus/text-to-speech",
+  },
+  {
+    num: "04",
+    title: "RNTD",
+    description: "Worked on the frontend development of this project for the AudtEye company.",
+    stack: [{ name: "react.js" }, { name: "next.js" }, { name: "scss" }],
+    image: "/assets/work/02.png",
+    live: "https://rntd.io/",
     github: "",
   },
   {
-    num: "06",
-    title: "Meme Picker",
-    description: "An app gives you a cat meme to match your mood.",
-    stack: [{ name: "html" }, {name: "css"}, {name: "javascript"}],
-    image: "/assets/work/06.png",
-    live: "https://meme-picker-with-js.vercel.app/",
-    github: "https://github.com/sebnemgormus/meme-picker-with-js",
-  },
-  {
-    num: "07",
+    num: "05",
     title: "Re:Coded Capstone Project - Paying it Forward",
     description: "A team project designed with Figma and developed with React, to provide a solution to reduce inequality in the education system.",
     stack: [{ name: "react.js" }, {name: "redux"}],
@@ -81,13 +63,31 @@ const projects = [
     github: "https://github.com/sebnemgormus/capstone-turkey-react-paying-it-forward",
   },
   {
-    num: "08",
-    title: "Text to Speech",
-    description: "A simple text-to-speech converter that lets you input your text and select a language. It then converts the text into spoken words in the chosen language, providing clear and accurate audio output.",
+    num: "06",
+    title: "AuthnTKT",
+    description:"Developed for AudtEye company.",
+    stack: [{ name: "html" }, { name: "css" }, { name: "javascript" }],
+    image: "/assets/work/project1.png",
+    live: "https://authntkt.io/",
+    github: "",
+  },
+  {
+    num: "07",
+    title: "Meme Picker",
+    description: "An app gives you a cat meme to match your mood.",
     stack: [{ name: "html" }, {name: "css"}, {name: "javascript"}],
-    image: "/assets/work/08.png",
-    live: "https://text-to-speech-weld-phi.vercel.app/",
-    github: "https://github.com/sebnemgormus/text-to-speech",
+    image: "/assets/work/06.png",
+    live: "https://meme-picker-with-js.vercel.app/",
+    github: "https://github.com/sebnemgormus/meme-picker-with-js",
+  },
+  {
+    num: "08",
+    title: "laurenbooth",
+    description: "Developed for AudtEye company's customer.",
+    stack: [{ name: "wordpress" }],
+    image: "/assets/work/05.png",
+    live: "https://laurenbooth.co.uk/",
+    github: "",
   },
   {
     num: "09",
@@ -153,7 +153,7 @@ const Work = () => {
                 <Link href={project.live} target="_blank">
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
-                      <TooltipTrigger className="w-[70px] h-[70px] grid  bg-fuchsia-300 dark:bg-blue/20 dark:hover:bg-blue  hover:bg-fuchsia-200 justify-center items-center">
+                      <TooltipTrigger className="w-[70px] h-[70px] grid  bg-fuchsia-400 dark:bg-blue/20 dark:hover:bg-blue  hover:bg-fuchsia-500 justify-center items-center">
                         <BsArrowUpRight className="text-white text-3xl" />
                       </TooltipTrigger>
                       <TooltipContent>
@@ -166,7 +166,7 @@ const Work = () => {
                   <Link href={project.github} target="_blank">
                     <TooltipProvider delayDuration={100}>
                       <Tooltip>
-                        <TooltipTrigger className="w-[70px] h-[70px] grid dark:bg-blue/20 dark:hover:bg-blue bg-fuchsia-300 hover:bg-fuchsia-200 justify-center items-center group">
+                        <TooltipTrigger className="w-[70px] h-[70px] grid dark:bg-blue/20 dark:hover:bg-blue bg-fuchsia-400 hover:bg-fuchsia-500 justify-center items-center group">
                           <FiGithub className="text-white text-3xl" />
                         </TooltipTrigger>
                         <TooltipContent>
@@ -204,7 +204,7 @@ const Work = () => {
                 );
               })}
               <WorkSliderBtns containerStyles="flex gap-2 absolute  right-0 bottom-[calc(50%_-_22px)] xl:bottom-0 z-20 w-full justify-between xl:w-max xl:justify-none" 
-              btnStyles="bg-fuchsia-300 hover:bg-fuchsia-200 text-white  dark:bg-blue/20 dark:hover:bg-blue  text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all"/>
+              btnStyles="bg-fuchsia-400 hover:bg-fuchsia-500 text-white  dark:bg-blue/20 dark:hover:bg-blue  text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all"/>
             </Swiper>
           </div>
         </div>
