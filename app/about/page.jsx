@@ -145,6 +145,51 @@ const certificates = {
   title: "My certificates",
   items: [
     {
+      institution: "datacamp",
+      department: "Working with the OpenAI API",
+      link: "https://www.datacamp.com/completed/statement-of-accomplishment/course/eee303dfdef6aa6a5e654d57f99d6d16cdd26057",
+    },
+    {
+      institution: "datacamp",
+      department: "Developing AI Systems with the OpenAI API",
+      link: "https://www.datacamp.com/completed/statement-of-accomplishment/course/2847ad2fc05771e9ba601753f0f79a3c516500cf",
+    },
+    {
+      institution: "datacamp",
+      department: "Explainable Artificial Intelligence (XAI) Concepts",
+      link: "https://www.datacamp.com/completed/statement-of-accomplishment/course/ae98019eda752a4f4ff638c64a41e63d6c8bd930",
+    },
+    {
+      institution: "datacamp",
+      department: "Generative AI Concepts",
+      link: "https://www.datacamp.com/completed/statement-of-accomplishment/course/9a4cb4747d593d85f4a478f4b4b65c85b954a843",
+    },
+    {
+      institution: "datacamp",
+      department: "Intermediate SQL",
+      link: "https://www.datacamp.com/completed/statement-of-accomplishment/course/6f822ffdf86f9a7355d6ef193f099e617192567f",
+    },
+    {
+      institution: "datacamp",
+      department: "Introduction to SQL",
+      link: "https://www.datacamp.com/completed/statement-of-accomplishment/course/8ad5994aa706a22977a96e7067e2c02bbf76d818",
+    },
+    {
+      institution: "datacamp",
+      department: "Large Language Models (LLMs) Concepts",
+      link: "https://www.datacamp.com/completed/statement-of-accomplishment/course/5a626e981a346f004b0dd5a16fd70ad25d12909a",
+    },
+    {
+      institution: "datacamp",
+      department: "Understanding Artificial Intelligence",
+      link: "https://www.datacamp.com/completed/statement-of-accomplishment/course/ef7648bbbc8018eac9b29dfea241c90d2394b4da",
+    },
+    {
+      institution: "datacamp",
+      department: "Understanding Machine Learning",
+      link: "https://www.datacamp.com/completed/statement-of-accomplishment/course/8c70cc8fa4d438557e01c8322e72962cdda30798",
+    },
+    {
       institution: "miuul",
       department: "Introduction to Data Science and Artificial Intelligence",
       link: "https://learning.miuul.com/certificates/ip4ciwiwdd",
