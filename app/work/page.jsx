@@ -144,7 +144,7 @@ const Work = () => {
                 {project.num}
               </div>
 
-              <h2 className="text-[42px] font-bold leading-none text-black transition-all duration-500 capitalize dark:text-white">
+              <h2 className="text-[40px] font-bold leading-none text-black transition-all duration-500 capitalize dark:text-white">
                 {project.title}
               </h2>
               <p className="text-black/60 dark:text-white/60">{project.description}</p>
