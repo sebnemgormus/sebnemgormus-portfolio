@@ -19,6 +19,15 @@ import {FiGithub} from "react-icons/fi";
 const projects = [
   {
     num: "01",
+    title: "flixmyway | A Personalized Reimagination of Netflix",
+    description: "A modern, responsive web app that reimagines core Netflix features. It delivers a smooth and dynamic user experience.",
+    stack: [{ name: "react.js" }, {name: "react router"}, {name: "CSS"}, {name: "TMDb API"}, {name: "firebase"}],
+    image: "/assets/work/flixmyway.png",
+    live: "https://flixmyway.vercel.app/",
+    github: "https://github.com/sebnemgormus/flixmyway",
+  },
+  {
+    num: "02",
     title: "Weather App",
     description: "A weather app that provides real-time weather updates and forecasts.",
     stack: [{ name: "html" }, {name: "css"}, {name: "javascript"}],
@@ -27,7 +36,7 @@ const projects = [
     github: "https://github.com/sebnemgormus/weather-app",
   },
   {
-    num: "02",
+    num: "03",
     title: "CV Generator",
     description: "A CV generator application designed to help users create professional resumes quickly and easily.",
     stack: [{ name: "react.js" }, {name: "css"}],
@@ -36,7 +45,7 @@ const projects = [
     github: "https://github.com/sebnemgormus/create-cv",
   },
   {
-    num: "03",
+    num: "04",
     title: "Text to Speech",
     description: "A simple text-to-speech converter that lets you input your text and select a language. It then converts the text into spoken words in the chosen language, providing clear and accurate audio output.",
     stack: [{ name: "html" }, {name: "css"}, {name: "javascript"}],
@@ -45,7 +54,7 @@ const projects = [
     github: "https://github.com/sebnemgormus/text-to-speech",
   },
   {
-    num: "04",
+    num: "05",
     title: "RNTD",
     description: "Worked on the frontend development of this project for the AudtEye company.",
     stack: [{ name: "react.js" }, { name: "next.js" }, { name: "scss" }],
@@ -54,7 +63,7 @@ const projects = [
     github: "",
   },
   {
-    num: "05",
+    num: "06",
     title: "Re:Coded Capstone Project - Paying it Forward",
     description: "A team project designed with Figma and developed with React, to provide a solution to reduce inequality in the education system.",
     stack: [{ name: "react.js" }, {name: "redux"}],
@@ -63,7 +72,7 @@ const projects = [
     github: "https://github.com/sebnemgormus/capstone-turkey-react-paying-it-forward",
   },
   {
-    num: "06",
+    num: "07",
     title: "AuthnTKT",
     description:"Developed for AudtEye company.",
     stack: [{ name: "html" }, { name: "css" }, { name: "javascript" }],
@@ -72,7 +81,7 @@ const projects = [
     github: "",
   },
   {
-    num: "07",
+    num: "08",
     title: "Meme Picker",
     description: "An app gives you a cat meme to match your mood.",
     stack: [{ name: "html" }, {name: "css"}, {name: "javascript"}],
@@ -81,7 +90,7 @@ const projects = [
     github: "https://github.com/sebnemgormus/meme-picker-with-js",
   },
   {
-    num: "08",
+    num: "09",
     title: "laurenbooth",
     description: "Developed for AudtEye company's customer.",
     stack: [{ name: "wordpress" }],
@@ -90,7 +99,7 @@ const projects = [
     github: "",
   },
   {
-    num: "09",
+    num: "10",
     title: "Cookie Consent",
     description: "A basic cookie consent was created to make practice on some javascript concepts.",
     stack: [{ name: "html" }, {name: "css"}, {name: "javascript"}],
@@ -99,7 +108,7 @@ const projects = [
     github: "https://github.com/sebnemgormus/cookie-consent-with-js",
   },
   {
-    num: "10",
+    num: "11",
     title: "Twimba",
     description: "The purpose of this application is to emulate a number of the features of the real Twitter platform. Among the app's capabilities are the ability to compose and post tweets to a feed, to like or dislike tweets, to retweet or unretweet, and to delete tweets. Additionally, users can access replies to tweets by clicking on the reply icon.",
     stack: [{ name: "html" }, {name: "css"}, {name: "javascript"}],
