@@ -19,7 +19,7 @@ import {FiGithub} from "react-icons/fi";
 const projects = [
   {
     num: "01",
-    title: "flixmyway | A Personalized Reimagination of Netflix",
+    title: "flixmyway",
     description: "A modern, responsive web app that reimagines core Netflix features. It delivers a smooth and dynamic user experience.",
     stack: [{ name: "react.js" }, {name: "react router"}, {name: "CSS"}, {name: "TMDb API"}, {name: "firebase"}],
     image: "/assets/work/flixmyway.png",
@@ -134,7 +134,7 @@ const Work = () => {
         opacity: 1,
         transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
       }}
-      className="min-h-[80vh] flex flex-col justify-center py-12 xl:px-0"
+      className="min-h-[80vh] flex flex-col justify-center py-8 xl:px-0"
     >
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row xl:gap-[30px]">
